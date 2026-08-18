@@ -1,0 +1,138 @@
+body {
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    flex: 1;
+}
+
+/* Navbar */
+.navbar {
+    height: 5rem;
+}
+
+.fa-plane-departure {
+    color: #fe424d;
+    font-size: 2rem;
+}
+
+.nav-link {
+    color: #222222 !important;
+}
+
+/* Footer */
+.f-info-links a {
+    text-decoration: none;
+    color: #222222;
+}
+
+.f-info-links a:hover {
+    text-decoration: underline;
+}
+
+.f-info-links,
+.f-info-socials,
+.f-info-brand {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.f-info-brand {
+    margin-right: 0.5rem;
+}
+
+.f-info-socials i {
+    margin-right: 0.5rem;
+    font-size: 1.3rem;
+}
+
+/* footer div{
+    width: 100%;
+} */
+
+.f-info {
+    height: 6rem;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ebebeb;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Card */
+.listing-card {
+    border: none !important;
+    margin-bottom: 1rem;
+}
+
+.card-img-top {
+    border-radius: 1rem !important;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 0 !important;
+}
+
+.card-text p {
+    font-weight: 400 !important;
+}
+
+.listing-link {
+    text-decoration: none;
+}
+
+/* Card Effect */
+.card-img-overlay {
+    opacity: 0;
+    background-color: white;
+}
+
+.card-img-overlay:hover {
+    opacity: 0.2;
+}
+
+/* New Page */
+.add-btn {
+    background-color: #fe424d !important;
+    border: none !important;
+}
+
+/* Edit Page */
+.edit-btn {
+    background-color: #fe424d !important;
+    border: none !important;
+}
+
+/* Show Page */
+.show-img {
+    height: 35vh;
+    border-radius: 1.2rem !important;
+    object-fit: cover;
+    object-position: center;
+}
+
+.btns {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+/* .row{
+    display: flex;
+    justify-content: center;
+} */
+
+/* Maps */
+#map {
+    height: 60vh;
+    width: 50vw;
+}
